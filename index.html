@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+<!-- My CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Akhir CSS -->
+    <title>Alfauzan Kuningan</title>
+  </head>
+  <body>
+      <!--Navbar-->
+      
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm"
+     style="background-color: #69d2e7;"">
+     <div class="container"> 
+        <a class="navbar-brand" href="#">Alfauzan Kuningan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#">Galeri</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- Jumbotron -->
+<section class="jumbotron text-center">
+    <img src="img/image1.png" alt="Alfauzan Kuningan" width="200" class="rounded-circle img-thumbnail">
+  <h1 class="display-4">Alfauzan Kuningan</h1>
+  <p class="lead">"Bersama Membangun Negeri"</p>
+</section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Pendaftaran -->
+
+    
+
+<section id="DAFTAR">
+<div class="container">
+    <div class="row text-center">
+        <div class="col">
+            <h2>DAFTAR</h2>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <!-- Form Daftar -->
+<form>
+    <div class="mb-3">
+      <label for="Name" class="form-label">Nama Lengkap Sesuai Akta Kelahiran</label>
+      <input type="text" class="form-control" id="Name" aria-describedby="Name">
+      <div id="Name" class="form-text">*Pengisian nama harus sesuai dengan Akta Kelahiran</div>
+    </div>
+      <div class="mb-3">
+        <label for="KTP" class="form-label">Nomor Induk Kependudukan (NIK/Nomor KTP)</label>
+        <input type="text" class="form-control" id="KTP" aria-describedby="KTP">
+      </div>
+    <div class="mb-3">
+        <label for="TTL" class="form-label">Tempat Tanggal Lahir (Contoh: Jakarta, 1 Januari 2020)</label>
+        <input type="text" class="form-control" id="TTL" aria-describedby="TTL">
+      </div>
+    <div class="mb-3">
+        <label for="Jenis Kelamin" class="form-label">Jenis Kelamin</label>
+      <select class="form-select" aria-label="Jenis Kelamin">
+        <option value="1">Laki-laki</option>
+        <option value="2">Perempuan</option>
+      </select>
+    </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Alamat Lengkap Sesuai KTP : (RT, RW, Kelurahan, Kecamatan, Kabupaten/Kota, Provinsi)</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    <button type="submit" class="btn btn-primary">Kirim</button>
+  </form>
+<!-- Akhir Form Daftar -->
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
